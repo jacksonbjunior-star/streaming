@@ -18,7 +18,9 @@ public abstract class Conteudo {
     public String getTitulo() {
         return titulo;
     }
-
+       public int getDuracao() {
+        return duracao;
+    }
     public void setDuracao(int duracao) {
         if (duracao > 0) {
             this.duracao = duracao;
