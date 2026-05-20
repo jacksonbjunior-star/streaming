@@ -2,7 +2,6 @@ package br.com.streaming.modelo;
 
 public class Serie extends Conteudo {
     private int temporadas;
-    // CORRIGIDO: Padronizado para CamelCase com 'P' maiúsculo
     private int episodiosPorTemporada; 
 
     public Serie(String titulo, int duracao, int classificacaoIndicativa, int temporadas, int episodiosPorTemporada) {
